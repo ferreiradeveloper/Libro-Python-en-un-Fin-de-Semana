@@ -93,3 +93,13 @@ print('\nLa lista de precios quedó vacía:', precios)
 # Quita el segundo elemento de la lista.
 del colores_primarios[1]
 print('\nColores primarios luego de quitar el segundo elemento:', colores_primarios)
+
+'''
+    Según se muestra en el ejemplo anterior tanto sort() como sorted() permiten un parámetro extra (key), utilizado para indicar
+    el criterio de ordenación, En el ejemplo se usó para señalar que los días se ordenen según su longitud, no alfabeticamente.
+    Si una lista almacena datos númericos y cadenas de caracteres y se debe ordenar, con este parámetro se puede pedir que todos 
+    los datos se conviertan a cadenas (key = str) y luego se ordenen. Es importante señalar que los datos de la lista original no
+    se modifican, la alteración es solo para efectos de la ordenación. En el caso de listas con cadenas en mayúsculas y otras
+    en minúsculas se podriá usar key = str.lower para lograr una ordenación más uniforme.
+'''
+
