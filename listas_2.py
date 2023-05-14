@@ -93,4 +93,3 @@ print('\nLa lista de precios quedó vacía:', precios)
 # Quita el segundo elemento de la lista.
 del colores_primarios[1]
 print('\nColores primarios luego de quitar el segundo elemento:', colores_primarios)
-
