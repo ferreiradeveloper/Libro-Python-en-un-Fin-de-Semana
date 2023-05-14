@@ -36,4 +36,21 @@ print('\nLista de palabras:', palabras)
 con_tuplas = list((6, 3, 8, 12, 15))
 print('\nLista con los elementos de la tupla:', con_tuplas)
 
+# operaciones con listas: 
+# acceso a los elementos: se accede meniante su indice y esta como se comento con anterioridad en pieza en cero,
+# y para acceder al ultimo elemento ademas de su incide podemos colocar [-1], python en uno de los pocos lenguajes
+# que aceptan indices negativos
+lista_colores = ['rojo','azul','verde','negro']
+print(lista_colores[0])
+print(lista_colores[-1])
+
+# Operadores de sobre carga (Opradores+ y*)
+# el efecto del primero (y) es concatenar o pegar los elementos de una lista al final de otra lista y el segundo (*) se usa para
+# repetir la seguencia de elementos de la lista tantas veces como lo indique el valor que acompaña al operador
+
+mas_colores= ['rosado','magenta']
+colores_add = lista_colores+mas_colores
+print(colores_add)
+colores_add_por_2 = colores_add*2
+print(colores_add_por_2)
 
