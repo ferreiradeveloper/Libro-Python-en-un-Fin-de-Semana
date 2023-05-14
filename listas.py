@@ -18,6 +18,7 @@ print(lista_vacia,lista_vacia2)
 # Se genera una lista a partir de un rango.
 pares = list(range(0, 30, 2))
 print('\nPares menores a 30:', pares)
+
 impares = list(range(29, 0, -2))
 print('\nImpares menores a 30:', impares)
 
