@@ -12,13 +12,13 @@ def buscar_elemento(lista, elemento):
 #CP1 Se da lista de nombres y un nombre existente
 lista1 = ['Juan','Jose','Pedro','Mario','Francisco', 'Manuel']
 nombre = 'Francisco'
-print('\nCP1 - Francisco esta en la Posición',buscar_elemento(lista1, nombre))
+print('\nCP1 - Francisco esta en la Posición', buscar_elemento(lista1, nombre) if buscar_elemento(lista1, nombre) > 0 else 'No existe')
 
 #CP1 Se da lista de nombres y un nombre no existente
 nombre = 'Edward'
-print('\nCP1 - Edward esta en la Posición',buscar_elemento(lista1, nombre))
+print('\nCP1 - Edward esta en la Posición',buscar_elemento(lista1, nombre) if buscar_elemento(lista1, nombre) > 0 else 'No existe')
 
 #CP1 Se da lista vacia y un nombre
 lista1.clear()
 nombre = 'Francisco'
-print('\nCP1 - Edward esta en la Posición',buscar_elemento(lista1, nombre))
+print('\nCP1 - Edward esta en la Posición',buscar_elemento(lista1, nombre) if buscar_elemento(lista1, nombre) > 0 else 'No existe')
